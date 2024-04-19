@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": "dde3",
+      "email": "mac@mac.com",
+      "password": "$2a$10$5uO1IsBbsc1ahL2Tu1fteO1xu/FHLSOOYew7S6rJwK5R.iOwN.C.u",
+      "firstName": "macoy",
+      "lastName": "velasco",
+      "address": "Sabang",
+      "phoneNumber": "09276082570",
+      "gender": "Male",
+      "birthdate": "2024-04-15"
+    }
+  ]
+}
