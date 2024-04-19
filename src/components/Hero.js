@@ -11,7 +11,6 @@ import {
   AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
-  
 } from "react-icons/ai";
 import PhoneButton from "../shared/PhoneButton";
 const Hero = () => {
@@ -128,7 +127,7 @@ const Hero = () => {
           <div className="group h-48 w-48 md:h-64 md:w-64 overflow-hidden rounded-lg shadow-lg ">
             <ImageViewer src={pic4} alt="Pic 3 image" />
           </div>
-        </div>{" "}
+        </div>
         {/* End of Pics*/}
       </div>
     </div>

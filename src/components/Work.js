@@ -16,76 +16,59 @@ const Work = () => {
           </h2>
           <p className="text-gray-500">These are my projects.</p>
         </div>
-        </div>
+      </div>
 
-        
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-4">
-        
-          <a
-            href="/"
-            className="group  h-48 overflow-hidden rounded-lg shadow-lg md:h-80"
-          >
-            
-            <img
-              src={proj1}
-              loading="lazy"
-              alt=""
-              className="  h-full w-full
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-4">
+        <a
+          href="/"
+          className="group  h-48 overflow-hidden rounded-lg shadow-lg md:h-80 "
+        >
+          <img
+            src={proj1}
+            loading="lazy"
+            alt=""
+            className="  h-full w-full
               object-cover object-center transition duration-200 group-hover:scale-110"
-            />
-          </a>
-         
-         
-       
-          
-          <a
-            href="/"
-            className="group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-80"
-          >
-            <img
-              src={proj4}
-              loading="lazy"
-              alt=""
-              className="  h-full w-full
+          />
+        </a>
+
+        <a
+          href="/"
+          className="group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-80"
+        >
+          <img
+            src={proj4}
+            loading="lazy"
+            alt=""
+            className="  h-full w-full
               object-cover object-center transition duration-200 group-hover:scale-110"
-            />
-           
-
-            
-          </a>
-          <a
-            href="/"
-            className="group  h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-80"
-          >
-            <img
-              src={proj3}
-              loading="lazy"
-              alt=""
-              className="  h-full w-full
+          />
+        </a>
+        <a
+          href="/"
+          className="group  h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-80"
+        >
+          <img
+            src={proj3}
+            loading="lazy"
+            alt=""
+            className="  h-full w-full
               object-cover object-center transition duration-200 group-hover:scale-110"
-            />
+          />
+        </a>
 
-            
-          </a>
-
-          <a
-            href="/"
-            className="group  h-48 overflow-hidden rounded-lg shadow-lg md:h-80"
-          >
-            <img
-              src={proj2}
-              loading="lazy"
-              alt=""
-              className="  h-full w-full
+        <a
+          href="/"
+          className="group  h-48 overflow-hidden rounded-lg shadow-lg md:h-80"
+        >
+          <img
+            src={proj2}
+            loading="lazy"
+            alt=""
+            className="  h-full w-full
               object-cover object-center transition duration-200 group-hover:scale-110"
-            />
-
-            
-          </a>
-
-
-
-       
+          />
+        </a>
       </div>
       <div className="border-b border-gray-400 py-10 "></div>
       <div className="mb-4 flex items-center justify-between">
@@ -94,11 +77,9 @@ const Work = () => {
             Used
             <span> Technologies</span>
           </h2>
-          
         </div>
-        </div>
-      <Icons/>
-      
+      </div>
+      <Icons />
     </div>
   );
 };

@@ -11,97 +11,106 @@ const About = () => {
       <div className="flex sm:flex-row flex-col-reverse items-center md-gap-6 gap-12 px-10 max-w-6xl mx auto ">
         <div>
           <div className="w-[125px] h-[125px]">
-          <a href="https://react.dev/" target="_blank">
+            <a
+              href="https://react.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={reactImg}
                 alt=""
-                className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50"
+                className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
               />
-              </a>
+            </a>
           </div>
         </div>
 
         <div>
           <div className="p-2">
             <div className="w-[125px] h-[125px]">
-              <a href="https://react.dev/" target="_blank">
-              <img
-                src={javaImg}
-                alt=""
-                className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50"
-              />
+              <a
+                href="https://www.w3schools.com/js/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={javaImg}
+                  alt=""
+                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
+                />
               </a>
             </div>
-
           </div>
-          
         </div>
         <div>
           <div className="p-2">
             <div className="w-[125px] h-[125px]">
-            <a href="https://react.dev/" target="_blank">
-              <img
-                src={tailImg}
-                alt=""
-                className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50"
-              />
+              <a
+                href="https://tailwindcss.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={tailImg}
+                  alt=""
+                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
+                />
               </a>
             </div>
-
           </div>
-          
         </div>
         <div>
           <div className="p-2">
             <div className="w-[125px] h-[125px]">
-            <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
-              <img
-                src={htmlImg}
-                alt=""
-                className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50"
-              />
+              <a
+                href="https://www.w3schools.com/html/html_intro.asp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={htmlImg}
+                  alt=""
+                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
+                />
               </a>
             </div>
-
           </div>
-          
         </div>
         <div>
           <div className="p-2">
             <div className="w-[125px] h-[125px]">
-            <a href="https://react.dev/" target="_blank">
-              <img
-                src={cssImg}
-                alt=""
-                className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50"
-              />
+              <a
+                href="https://www.w3schools.com/css/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={cssImg}
+                  alt=""
+                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
+                />
               </a>
             </div>
-
           </div>
-          
         </div>
         <div>
           <div className="p-2">
             <div className="w-[125px] h-[125px]">
-            <a href="https://react.dev/" target="_blank">
-              <img
-                src={nodeImg}
-                alt=""
-                className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50"
-              />
+              <a
+                href="https://nodejs.org/en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={nodeImg}
+                  alt=""
+                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70 "
+                />
               </a>
             </div>
-
           </div>
-          
         </div>
-        
-        
-
-
       </div>
-      
     </div>
   );
 };
