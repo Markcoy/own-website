@@ -100,12 +100,17 @@ const LoginNum = () => {
       ) : (
         <div>
           <form onSubmit={formik.handleSubmit}>
-          <div className="flex flex-col justify-center items-center h-screen" style={{ backgroundImage: `url(${bgimage})`, backgroundSize: "cover" }}>
+            <div
+              className="flex flex-col justify-center items-center h-screen"
+              style={{
+                backgroundImage: `url(${bgimage})`,
+                backgroundSize: "cover",
+              }}
+            >
               <div className="absolute bg-neutral-700 px-10 py-10 rounded-xl border-1 ring-1 ring-black ring-opacity-5 border-gray-900 border border-gray-700">
-                
                 <div>
-                <div className="flex justify-center items-center gap-2  py-3 mb-1">
-                <TbUserQuestion className="text-violet-500" fontSize={30} />
+                  <div className="flex justify-center items-center gap-2  py-3 mb-1">
+                    <TbUserQuestion className="text-violet-500" fontSize={30} />
                     <span className="text-3xl ">Who's Macoy</span>
                   </div>
                   <h3 className="justify-center text-gray-100 flex mb-10 text-md">
@@ -183,15 +188,16 @@ const LoginNum = () => {
                 </div>
                 <div className="flex flex-col justify-center py-6">
                   <button
-                     className={`w-full active:scale-[.98] active:duration-75 hover:scale-[1.01] easy-in-out transition-all py-3 rounded-xl bg-violet-700 text-white text-md font-bold`}
+                    className={`w-full active:scale-[.98] active:duration-75 hover:scale-[1.01] easy-in-out transition-all py-3 rounded-xl bg-violet-700 text-white text-md font-bold`}
                     type="submit"
                     disabled={!formik.isValid}
                   >
                     Sign in
                   </button>
-                  
-                  <Link to="/signup" 
-                     className={`hover:no-underline flex justify-center w-full active:scale-[.98] active:duration-75 hover:scale-[1.01] easy-in-out transition-all py-3 mt-3 rounded-xl bg-black text-white text-md font-bold`}
+
+                  <Link
+                    to="/signup"
+                    className={`hover:no-underline flex justify-center w-full active:scale-[.98] active:duration-75 hover:scale-[1.01] easy-in-out transition-all py-3 mt-3 rounded-xl bg-black text-white text-md font-bold`}
                   >
                     Sign up
                   </Link>

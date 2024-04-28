@@ -10,7 +10,7 @@ const About = () => {
     <div className="py-10 text-white bg-[@232325] h-auto flex justify-center">
       <div className="flex sm:flex-row flex-col-reverse items-center md-gap-6 gap-12 px-10 max-w-6xl mx auto ">
         <div>
-          <div className="w-[125px] h-[125px]">
+          <div className="w-[100px] h-[100px]">
             <a
               href="https://react.dev/"
               target="_blank"
@@ -19,7 +19,7 @@ const About = () => {
               <img
                 src={reactImg}
                 alt=""
-                className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
+                className="filter grayscale hover:grayscale-0 object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-125 hover:opacity-70"
               />
             </a>
           </div>
@@ -27,7 +27,7 @@ const About = () => {
 
         <div>
           <div className="p-2">
-            <div className="w-[125px] h-[125px]">
+            <div className="w-[100px] h-[100px]">
               <a
                 href="https://www.w3schools.com/js/"
                 target="_blank"
@@ -36,7 +36,7 @@ const About = () => {
                 <img
                   src={javaImg}
                   alt=""
-                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
+                  className=" filter grayscale object-contain hover:grayscale-0 bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-125  hover:opacity-70"
                 />
               </a>
             </div>
@@ -44,7 +44,7 @@ const About = () => {
         </div>
         <div>
           <div className="p-2">
-            <div className="w-[125px] h-[125px]">
+            <div className="w-[100px] h-[100px]">
               <a
                 href="https://tailwindcss.com/"
                 target="_blank"
@@ -53,7 +53,7 @@ const About = () => {
                 <img
                   src={tailImg}
                   alt=""
-                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
+                  className=" fliter grayscale hover:grayscale-0 object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-125  hover:opacity-70"
                 />
               </a>
             </div>
@@ -61,7 +61,7 @@ const About = () => {
         </div>
         <div>
           <div className="p-2">
-            <div className="w-[125px] h-[125px]">
+            <div className="w-[100px] h-[100px]">
               <a
                 href="https://www.w3schools.com/html/html_intro.asp"
                 target="_blank"
@@ -70,7 +70,7 @@ const About = () => {
                 <img
                   src={htmlImg}
                   alt=""
-                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
+                  className="filter grayscale hover:grayscale-0 object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-125  hover:opacity-70"
                 />
               </a>
             </div>
@@ -78,7 +78,7 @@ const About = () => {
         </div>
         <div>
           <div className="p-2">
-            <div className="w-[125px] h-[125px]">
+            <div className="w-[100px] h-[100px]">
               <a
                 href="https://www.w3schools.com/css/"
                 target="_blank"
@@ -87,7 +87,7 @@ const About = () => {
                 <img
                   src={cssImg}
                   alt=""
-                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70"
+                  className="filter grayscale hover:grayscale-0 object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-125  hover:opacity-70"
                 />
               </a>
             </div>
@@ -95,7 +95,7 @@ const About = () => {
         </div>
         <div>
           <div className="p-2">
-            <div className="w-[125px] h-[125px]">
+            <div className="w-[100px] h-[100px]">
               <a
                 href="https://nodejs.org/en"
                 target="_blank"
@@ -104,7 +104,7 @@ const About = () => {
                 <img
                   src={nodeImg}
                   alt=""
-                  className="object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-50 hover:opacity-70 "
+                  className="filter grayscale hover:grayscale-0 object-contain bg-transparent rounded-xl w-full h-full transition-transform duration-300 hover:scale-125  hover:opacity-70 "
                 />
               </a>
             </div>

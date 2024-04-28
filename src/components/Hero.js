@@ -13,6 +13,7 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 import PhoneButton from "../shared/PhoneButton";
+import About from "./About";
 const Hero = () => {
   return (
     <div>
@@ -99,7 +100,6 @@ const Hero = () => {
           />
         </div>
       </div>
-
       {/* For Pics */}
       <div className="flex justify-center mt-2 ">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-1 sm:gap-1 lg:gap-8 ">
@@ -130,6 +130,8 @@ const Hero = () => {
         </div>
         {/* End of Pics*/}
       </div>
+
+      <About />
     </div>
   );
 };
