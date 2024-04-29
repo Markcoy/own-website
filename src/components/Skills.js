@@ -13,7 +13,7 @@ import CardDescR from "../shared/CardDescR.js";
 const Skills = () => {
   return (
     <div className="py-10 text-white bg-[@232325] h-auto flex justify-center">
-      <div className="card-form bg-#20242d px-5 py-5 rounded-lg border border-gray-900">
+      <div className="card-form bg-neutral-800 px-5 py-5 rounded-lg border border-gray-900">
         <div className="flex sm:flex-row flex-col-reverse items-center md-gap-6 gap-12 px-10 max-w-6xl mx auto ">
           <div>
             <div className="w-[400px] h-full">

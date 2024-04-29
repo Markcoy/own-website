@@ -48,26 +48,46 @@ const Galle = () => {
             <GalleryViewer
               src={gal3}
               alt="Gallery 3 image"
-              description="dfsfds"
+              description="This is the time when I won 3 awards on a Codelympics govern by the IT Department of DLSU-D. It is my first time to join such contest."
             />
           </div>
 
           {/* Image 4 */}
           <div className="group h-48 w-48 md:h-64 md:w-64 overflow-hidden rounded-lg shadow-lg ">
-            <GalleryViewer src={gal7} alt="Gallery 4 image" />
+            <GalleryViewer
+              src={gal7}
+              alt="Gallery 4 image"
+              description="I joined an the motherhead organization in DLSU-D. I am a Admin and Production Committee. There are many things I learned in doing events where creative mind is very vital, thus this cultivates my prowess for my creative side. "
+            />
           </div>
 
           <div className="group h-48 w-48 md:h-64 md:w-64 overflow-hidden rounded-lg shadow-lg lg:mt-7 sm:mt-0 ">
-            <GalleryViewer src={gal5} alt="Gallery 5 image" />
+            <GalleryViewer
+              src={gal5}
+              alt="Gallery 5 image "
+              description="I also joined the Bazaar at DLSU-D where I showcase my arts and products by selling pins and stickers, it makes me happy that other people were satisfied with the designs that I did."
+            />
           </div>
           <div className="group h-48 w-48 md:h-64 md:w-64 overflow-hidden rounded-lg shadow-lg lg:mt-7 sm:mt-0 ">
-            <GalleryViewer src={gal6} alt="Gallery 6 image" />
+            <GalleryViewer
+              src={gal6}
+              alt="Gallery 6 image"
+              description="I built a bond and family with my orgmates."
+            />
           </div>
           <div className="group h-48 w-48 md:h-64 md:w-64 overflow-hidden rounded-lg shadow-lg lg:mt-7 sm:mt-0 ">
-            <GalleryViewer src={gal8} alt="Gallery 7 image" />
+            <GalleryViewer
+              src={gal8}
+              alt="Gallery 7 image"
+              description="This is my first publication material that I did using canva and adobe photoshop, I did this when I was a Creatives Executive Committee at Council of Student Organization in DLSU-D."
+            />
           </div>
           <div className="group h-48 w-48 md:h-64 md:w-64 overflow-hidden rounded-lg shadow-lg lg:mt-7 sm:mt-0 ">
-            <GalleryViewer src={gal4} alt="Gallery 8 image" />
+            <GalleryViewer
+              src={gal4}
+              alt="Gallery 8 image"
+              description="I created my first website with the help and guide of my OJT company- Hacktiv Inc. Colab. I use ReactJS and tailwindCSS."
+            />
           </div>
         </div>
       </div>

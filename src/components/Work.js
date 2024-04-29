@@ -40,7 +40,7 @@ const Work = () => {
               imageSrc={proj4}
               downloadUrl="https://drive.google.com/uc?export=download&id=1D2R0QpZDS6khWbMiHiRx3hiILDZGTtZK
               "
-              description="sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
+              description="This simple activity list down the grades of the students in a specified subject.
            "
             />
           </div>
@@ -49,7 +49,7 @@ const Work = () => {
               imageSrc={proj3}
               downloadUrl="https://drive.google.com/uc?export=download&id=1eob1YajkToogw15mmpjg8pAzWo-5PItV
               "
-              description="ahbsdjhsdakjasd
+              description="This is a notepad or simply a note, where you can add or delete notes that you want to accomplish.
           "
             />
           </div>
@@ -59,7 +59,7 @@ const Work = () => {
               imageSrc={proj2}
               downloadUrl="https://drive.google.com/uc?export=download&id=1wW303rriTEqDyg89PNAPGPfC9k9wNsv9
               "
-              description="sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
+              description="This activity is a mock-up for ATM like scenario, where the user can deposit, withdraw, and check balance and a reciept will be the output, just like how ATM WORKS.
           "
             />
           </div>
@@ -68,7 +68,7 @@ const Work = () => {
               imageSrc={proj7}
               downloadUrl="https://drive.google.com/uc?export=download&id=1jhejEr5K4BK7ll8JUVsPTe9ZVl8lDqOY
               "
-              description="sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
+              description="This is a Toy storage activity where it stores the set of toys inputted and, when it is deleted it should go first in a recycle bin to know what are the deleted items.
           "
             />
           </div>
@@ -78,14 +78,7 @@ const Work = () => {
               imageSrc={proj5}
               downloadUrl="https://drive.google.com/uc?export=download&id=1FED_gB1Q7Kc2ma8Mw6XIfhccBqWDZYpw
               "
-              description="sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
-              sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
-              sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
-              sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
-              sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
-              sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
-              sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
-              sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
+              description="The Comer is a food ordering system activity that collects orders and compute its total bill.
            "
             />
           </div>
@@ -93,7 +86,7 @@ const Work = () => {
             <DescModal
               imageSrc={proj6}
               downloadUrl="https://drive.google.com/drive/folders/1irPmyDhomaiebUovf_ZgYzov034wZXD6?usp=drive_link"
-              description="sdfsdgfsdgdgdgdgdgdgdgdgdgdgsdfgggsdgsdgsdgsdgsdgsdggdssdggdssdgsdgsdgsdgdsg
+              description="This activity is a Book store ordering system, that has add to cart and check out, like how e-commerce works.
           "
             />
           </div>
